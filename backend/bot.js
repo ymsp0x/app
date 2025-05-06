@@ -1,5 +1,7 @@
-require('dotenv').config();
-const https = require('https');
+import dotenv from "dotenv";
+dotenv.config();
+
+import https from "https";
 
 const BOT_TOKEN = process.env.TG_BOT_TOKEN;
 const MINI_APP_URL = process.env.MINI_APP_URL || "https://your-mini-app-url.com/twitter";

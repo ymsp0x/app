@@ -1,0 +1,7 @@
+forge-std-1.9.4/src/=dependencies/forge-std-1.9.4/src/
+forge-std/=dependencies/forge-std-1.9.4/src/
+openzeppelin/=dependencies/@openzeppelin-contracts-5.1.0/contracts/
+openzeppelin-contracts/=dependencies/@openzeppelin-contracts-5.1.0/contracts/
+@openzeppelin/=dependencies/@openzeppelin-contracts-5.1.0/contracts/
+risc0-ethereum-2.0.0/=dependencies/risc0-ethereum-2.0.0/
+vlayer-0.1.0/=dependencies/vlayer-0.2.2/src/

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@vlayer/react": "^0.2.3-nightly-20250505-efe4902c2a1c4c16eacf277aef96ede623b4c612"
+  }
+}
