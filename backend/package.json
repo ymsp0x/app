@@ -5,12 +5,17 @@
   "type": "module",
   "scripts": {
     "start": "node --import dotenv/config index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --import dotenv/config index.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Backend service for the application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymsp0x/app.git"
+  },
   "dependencies": {
     "@vlayer/sdk": "^0.2.3",
     "body-parser": "^2.2.0",
@@ -18,5 +23,12 @@
     "dotenv": "^16.5.0",
     "ethers": "^6.13.7",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
